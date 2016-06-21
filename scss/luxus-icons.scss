@@ -2,7 +2,8 @@
 // variables
 // --------------------------
 
-$luxus-icons-font-path: '/'
+$luxus-icons-font-path: '../fonts' !default;
+$luxus-icons-css-prefix: fa !default;
 $fa-var-luxus-diamond: '\e800';
 $fa-var-panico-olives: '\e801';
 $fa-var-laulea-flower: '\e803';
@@ -11,14 +12,12 @@ $fa-var-laulea-flower: '\e803';
 // path
 // --------------------------
 
-$font-face {
+@font-face {
   font-family: 'FontAwesome';
-  src: url('#{$luxus-icons-font-path}/fonts/luxus-icons.eot');
-  //src: url('assets/fonts/luxus-icons.eot?#iefix') format('embedded-opentype'),
-  //url('assets/fonts/luxus-icons.woff2}') format('woff2'),
-  src: url('fonts/luxus-icons.woff') format('woff'),
-  url('fonts/luxus-icons.ttf') format('truetype'),
-  url('fonts/luxus-icons.svg') format('svg');
+  src: url('#{$luxus-icons-font-path}/luxus-icons.eot');
+  src: url('#{$luxus-icons-font-path}/luxus-icons.woff') format('woff'),
+  url('#{$luxus-icons-font-path}/luxus-icons.ttf') format('truetype'),
+  url('#{$luxus-icons-font-path}/luxus-icons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,14 +26,14 @@ $font-face {
 // icons
 // --------------------------
 
-.#{fa-css-prefix}-laulea-flower:before {
-  content: @fa-var-laulea-flower;
+.#{$luxus-icons-css-prefix}-laulea-flower:before {
+  content: $fa-var-laulea-flower;
 }
 
-.#{fa-css-prefix}-luxus-diamond:before {
-  content: @fa-var-luxus-diamond;
+.#{$luxus-icons-css-prefix}-luxus-diamond:before {
+  content: $fa-var-luxus-diamond;
 }
 
-.#{fa-css-prefix}-panico-olives:before {
-  content: @fa-var-panico-olives;
+.#{$luxus-icons-css-prefix}-panico-olives:before {
+  content: $fa-var-panico-olives;
 }
