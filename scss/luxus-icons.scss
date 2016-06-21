@@ -26,14 +26,14 @@ $fa-var-laulea-flower: '\e803';
 // icons
 // --------------------------
 
-.#{luxus-icons-css-prefix}-laulea-flower:before {
+.#{$luxus-icons-css-prefix}-laulea-flower:before {
   content: $fa-var-laulea-flower;
 }
 
-.#{luxus-icons-css-prefix}-luxus-diamond:before {
+.#{$luxus-icons-css-prefix}-luxus-diamond:before {
   content: $fa-var-luxus-diamond;
 }
 
-.#{luxus-icons-css-prefix}-panico-olives:before {
+.#{$luxus-icons-css-prefix}-panico-olives:before {
   content: $fa-var-panico-olives;
 }
