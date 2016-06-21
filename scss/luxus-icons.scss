@@ -2,7 +2,7 @@
 // variables
 // --------------------------
 
-$luxus-icons-font-path: '/';
+$luxus-icons-font-path: '/fonts';
 $fa-var-luxus-diamond: '\e800';
 $fa-var-panico-olives: '\e801';
 $fa-var-laulea-flower: '\e803';
@@ -11,7 +11,7 @@ $fa-var-laulea-flower: '\e803';
 // path
 // --------------------------
 
-$font-face {
+@font-face {
   font-family: 'FontAwesome';
   src: url('#{$luxus-icons-font-path}/luxus-icons.eot');
   src: url('#{$luxus-icons-font-path}/luxus-icons.woff') format('woff'),
@@ -26,13 +26,13 @@ $font-face {
 // --------------------------
 
 .#{fa-css-prefix}-laulea-flower:before {
-  content: @fa-var-laulea-flower;
+  content: $fa-var-laulea-flower;
 }
 
 .#{fa-css-prefix}-luxus-diamond:before {
-  content: @fa-var-luxus-diamond;
+  content: $fa-var-luxus-diamond;
 }
 
 .#{fa-css-prefix}-panico-olives:before {
-  content: @fa-var-panico-olives;
+  content: $fa-var-panico-olives;
 }
