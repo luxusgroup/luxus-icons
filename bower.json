@@ -1,0 +1,21 @@
+{
+  "name": "luxus-icons",
+  "version": "1.0.0",
+  "homepage": "https://github.com/luxusgroup/luxus-icons",
+  "authors": [
+    "Dan Nelson <dan@luxusgroup.com>"
+  ],
+  "description": "The Luxus Group's icon set to be used in a vane similar to Font Awesome or Glyphicons.",
+  "main": "",
+  "keywords": [
+    "luxus"
+  ],
+  "license": "SIL Open Font License 1.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
