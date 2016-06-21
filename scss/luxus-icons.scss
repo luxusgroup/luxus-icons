@@ -2,7 +2,7 @@
 // variables
 // --------------------------
 
-$luxus-icons-font-path: '/fonts';
+$luxus-icons-font-path: '../fonts' !default;
 $fa-var-luxus-diamond: '\e800';
 $fa-var-panico-olives: '\e801';
 $fa-var-laulea-flower: '\e803';
