@@ -4,9 +4,10 @@
 
 $luxus-icons-font-path: '../fonts' !default;
 $luxus-icons-css-prefix: fa !default;
-$fa-var-luxus-diamond: '\e800';
-$fa-var-panico-olives: '\e801';
-$fa-var-laulea-flower: '\e803';
+$fa-var-laulea-flower: '\e800';
+$fa-var-luxus-diamond: '\e801';
+$fa-var-panico-olives: '\e802';
+$fa-var-valet-suitcase: '\e803';
 
 // --------------------------
 // path
@@ -16,6 +17,7 @@ $fa-var-laulea-flower: '\e803';
   font-family: 'FontAwesome';
   src: url('#{$luxus-icons-font-path}/luxus-icons.eot');
   src: url('#{$luxus-icons-font-path}/luxus-icons.woff') format('woff'),
+    //url('#{$luxus-icons-font-path}/luxus-icons.woff2') format('woff2'), // TODO: not sure these woff2 work?
   url('#{$luxus-icons-font-path}/luxus-icons.ttf') format('truetype'),
   url('#{$luxus-icons-font-path}/luxus-icons.svg') format('svg');
   font-weight: normal;
@@ -36,4 +38,8 @@ $fa-var-laulea-flower: '\e803';
 
 .#{$luxus-icons-css-prefix}-panico-olives:before {
   content: $fa-var-panico-olives;
+}
+
+.#{$luxus-icons-css-prefix}-valet-suitcase:before {
+  content: $fa-var-valet-suitcase;
 }
