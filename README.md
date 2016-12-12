@@ -18,3 +18,4 @@ not being able to find your font files.
     <i class="fa fa-laulea-flower"></i>
     <i class="fa fa-luxus-diamond"></i>
     <i class="fa fa-panico-olives"></i>
+    <i class="fa fa-valet-suitcase"></i>
